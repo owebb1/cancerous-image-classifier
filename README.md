@@ -13,14 +13,25 @@ This is run in 4 stages:
 4. ```python3 model_test.py -s -n 60 -f 0```
 
 
-## Here is the organzation of how this is laid out
+## Repository Organization
 
-- `README.md`: This should be the entry point for anyone visiting your repository. It should contain an introduction to your project, how to set it up, and how to use it.
-- `data/`: Contains all data-related files, including datasets in CSV format and scripts for handling data.
-- `docs/`: Here, you can store your project notes and any additional documentation.
-- `models/`: This directory should contain all your machine learning models, training scripts, and testing scripts.
-- `scripts/`: Contains utility scripts that might be used for setting up the environment, running tests, or other repetitive tasks.
-- `images/`: If you have images related to the project, such as plots or diagrams, they go here.
-- `notebooks/`: If you're using Jupyter notebooks for analysis or data exploration, they should be placed in this directory.
-- `src/`: The main source code for your project. This might include core algorithms, data processing, etc.
-- `visualization/`: Dedicated to scripts that generate visual outputs from your data or model results.
+The repository is structured as follows:
+
+- `README.md`: The introductory document for the repository, containing the project overview, setup instructions, and usage guidelines.
+
+- `data/`: A directory containing all the data-related files, such as CSV datasets and scripts for data handling and transformation.
+
+- `docs/`: This folder is for storing all project-related documentation, including markdown notes and additional references.
+
+- `models/`: Contains machine learning models and associated scripts for training and testing, including SVM with bagging and standalone SVM scripts.
+
+- `scripts/`: Includes utility scripts for environmental setup, test automation, and other repetitive tasks.
+
+- `images/`: Hosts images that are part of the project documentation or generated from the project's visualizations.
+
+- `notebooks/`: If applicable, this directory will contain Jupyter notebooks used for data analysis, exploration, or experimental tracking.
+
+- `src/`: The main source code for the project's primary functionality, including core algorithms and data processing utilities.
+
+- `visualization/`: Dedicated to scripts for generating visual outputs from the data or model results.
+
